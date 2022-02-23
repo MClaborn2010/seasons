@@ -11,4 +11,8 @@ const Spinner = (props) => {
   );
 };
 
+Spinner.defaultProps = {
+  message: "Loading page...",
+};
+
 export default Spinner;
